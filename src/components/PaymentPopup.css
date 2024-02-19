@@ -1,0 +1,49 @@
+.payment-popup {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.payment-popup h2 {
+  margin-top: 0;
+}
+
+.payment-methods {
+  margin-bottom: 20px;
+}
+
+.payment-methods label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-methods input[type="radio"] {
+  margin-right: 10px;
+}
+
+.payment-methods input[type="radio"]:disabled + span {
+  color: #ccc;
+}
+
+.payment-methods input[type="radio"]:checked + span {
+  font-weight: bold;
+}
+
+.payment-popup p {
+  margin: 10px 0;
+}
+
+.payment-popup button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.payment-popup button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
